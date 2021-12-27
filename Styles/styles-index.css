@@ -16,6 +16,17 @@
   }
 }
 
+@keyframes entrada-sub {
+  from {
+    padding-top: 100%;
+    opacity: 0;
+  }
+  to {
+    padding-top: 0%;
+    opacity: 1;
+  }
+}
+
 /* ANIMAÇÃO NAV ITEMS */
 
 @keyframes nav-effect {
@@ -69,7 +80,7 @@ header {
   align-items: center;
   padding: 10px 0px 10px 0px;
   animation: entrada;
-  animation-duration: 0.7s;
+  animation-duration: 0.9s;
 }
 
 .header-nav-menu {
@@ -115,6 +126,37 @@ header {
 .titles {
   padding-right: 50px;
   text-align: center;
+}
+
+.face-rod-dev {
+  height: 250px;
+}
+
+.second-content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.s-title {
+  border-top: 2px solid #fff;
+  padding-top: 60px;
+  margin-top: 20px;
+  font-family: "Righteous", cursive;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.s-advantages {
+  font-family: "Sarabun", sans-serif;
+  animation: entrada-sub;
+  animation-duration: 3s;
+}
+
+#a-about {
+  color: #fff;
 }
 
 /* BOTÃO LINKEDIN */
